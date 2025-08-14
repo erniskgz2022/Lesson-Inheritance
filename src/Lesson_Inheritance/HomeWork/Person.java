@@ -3,6 +3,9 @@ package Lesson_Inheritance.HomeWork;
 public class Person {
     private String name;
     private String designation;
+    String learning;
+    String walking;
+    String eating;
 
     public Person() {
     }
@@ -28,16 +31,19 @@ public class Person {
         this.designation = designation;
     }
 
-    public void learn() {
-        System.out.println(name + " is learning.");
+    public void learn(String subject) {
+        learning = subject;
+        System.out.println(name + " is learning " + subject + ".");
     }
 
-    public void walk() {
-        System.out.println(name + " is walking.");
+    public void walk(String place) {
+        walking = place;
+        System.out.println(name + " is walking " + place + "." );
     }
 
-    public void eat() {
-        System.out.println(name + " is eating.");
+    public void eat(String food) {
+        eating = food;
+        System.out.println(name + " is eating  " + food + ".");
     }
 
     @Override

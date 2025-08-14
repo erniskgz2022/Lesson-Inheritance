@@ -8,21 +8,21 @@ public class Main {
         Singer singer = new Singer("Ulukmanapo", "Singer", "Rock Band");
 
         System.out.println(programmer);
-        programmer.learn();
-        programmer.walk();
-        programmer.eat();
+        programmer.learn("Math");
+        programmer.walk("University");
+        programmer.eat("Plov");
         programmer.coding();
 
         System.out.println("\n" + dancer);
-        dancer.learn();
-        dancer.walk();
-        dancer.eat();
+        dancer.learn("Language English");
+        dancer.walk("Cour");
+        dancer.eat("Besh Barmak");
         dancer.dancing();
 
         System.out.println("\n" + singer);
-        singer.learn();
-        singer.walk();
-        singer.eat();
+        singer.learn("studying vocals");
+        singer.walk("dfdsfsf");
+        singer.eat("Mastava");
         singer.singing();
         singer.playGuitar();
     }
